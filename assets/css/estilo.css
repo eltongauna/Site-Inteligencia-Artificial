@@ -1,0 +1,196 @@
+/*
+cabeçalho - fundo #04233F
+            letra #1190ff
+navegação - fundo #06345d
+            letra #7cc2ff
+principal - fundo #05192a
+cards     - fundo #061f35
+            letra #81c4ff
+Serviços  - fundo #082946
+Contato   - fundo #05192a
+Botão     - fundo #008eb9      
+Rodapé    - fundo #02111f
+            letra gray
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+span{
+    color: #fff;
+    font-weight: bold;
+}
+
+.cabeçalho{
+    background-color: #04233F;
+    color: #1190ff;
+    text-align: center;
+    padding: 20px;
+}
+
+.cabeçalho-texto{
+    font-weight: 600;
+    margin: 0;
+}
+
+.navegacao{
+    background-color: #06345d;
+    padding: 20px;
+    text-align: center;
+}
+
+.navegacao a{
+    color: #7cc2ff;
+    font-size: 1.5em;
+    margin: 0px 50px;
+}
+
+.navegacao a:hover{
+    color: white;
+}
+
+.conteiner{
+    background-color: #05192a;
+    overflow: auto;
+}
+
+.cards{
+    float: center;
+    margin: 60px auto;
+    padding: 50px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #061f35;
+    text-align: center;
+}
+
+.cards p{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #81c4ff;
+}
+
+.servicos-contato{
+    background-color: #082946;
+    text-align: center;
+    padding: 60px;
+}
+
+.servicos-contato h1{
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+
+.botoes-servicos-contato{
+    padding: 60px;
+    text-align: center;
+}
+
+.botoes-servicos-contato a{
+    display: block;
+    background-color: #008eb9;
+    color: #fff;
+    max-width: 200px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 20px 60px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.botoes-servicos-contato a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.rodape{
+    background-color: #02111f;
+    color: gray;
+    text-align: center;
+    padding: 80px;
+}
+
+.conteiner-servicos{
+    background-color: #05192a;
+    overflow: auto;
+    font-size: 1.1em;
+    padding: 60px;
+}
+
+.conteiner-servicos h1{
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.solucoes{
+    margin: auto;
+    float: center;
+    width: 40%;
+    font-weight: bold;
+}
+
+.solucoes p{
+    font-size: 1.3em;
+    color: #2097ff;
+    padding: 20px 0; 
+}
+
+.solucoes li{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.conteiner-contato{
+    background-color: #05192a;
+    padding: 80px;
+}
+
+.contato{
+    float: center;
+    text-align: center;
+}
+
+.contato h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.botao-falso{
+    width: 40%;
+    background-color: #08253f;
+    border: 1px solid #105088;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: auto;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.tipo-contato{
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.tipo-contato h2{
+    color: #00a2ff;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: lighter
+}
+
+.tipo-contato h2 a{
+    color: #00a2ff;
+}
